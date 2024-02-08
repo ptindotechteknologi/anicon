@@ -17,10 +17,11 @@ const AboutSectionTwo = () => {
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                // src="/images/about/iso.jpg"
+                src="/images/about/sertif.png"
                 alt="about image"
                 fill
-                className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>
           </div>
@@ -28,29 +29,32 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Daya Tahan Teruji
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dengan uji ketahanan yang ketat, beton precast premium
+                  membuktikan daya tahan dan ketahanannya terhadap beban, gempa,
+                  dan cuaca ekstrem.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Bersertifikat ISO 9001:2015
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  ANICON Precast memberikan jaminan kepuasan pelanggan dan
+                  jaminan kualitas mutu layanan mengacu kepada ISO 9001:2015 dan
+                  kualitas produk yang terstandarisasi.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Bersertifikat ISO 45001:2018
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Kami berkomitmen untuk memenuhi standar kesehatan dan
+                  keselamatan kerja difasilitas produksi kami, yang telah
+                  diterapkan dan mengacu sesuai dengan ISO 45001:2018
                 </p>
               </div>
             </div>

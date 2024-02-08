@@ -60,14 +60,14 @@ const Header = () => {
                   src="/images/logo/logo.png"
                   alt="logo"
                   width={100}
-                  height={30}
+                  height={0}
                   className="w-full dark:hidden"
                 />
                 <Image
                   src="/images/logo/logo.png"
                   alt="logo"
                   width={100}
-                  height={30}
+                  height={0}
                   className="hidden w-full dark:block"
                 />
               </Link>

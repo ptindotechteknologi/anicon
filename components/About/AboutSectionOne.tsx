@@ -37,7 +37,7 @@ const AboutSectionOne = () => {
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Kualitas Premium" />
                     <List text="5+ Tahun Pengalaman" />
-                    <List text="20 Produksi Per Hari" />
+                    <List text="Komitmen pada Kualitas" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">

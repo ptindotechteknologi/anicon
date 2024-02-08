@@ -1,6 +1,8 @@
+"use client";
 import Link from "next/link";
-
+import { useRouter } from "next/navigation";
 const Hero = () => {
+  const router = useRouter();
   return (
     <>
       <section
@@ -29,14 +31,17 @@ const Hero = () => {
                   SELAMAT DATANG di Pusat Spesialis Beton Precast
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
-                    className="rounded-sm bg-primary px-8 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  <div
+                    onClick={() => router.push("/product")}
+                    className="rounded-sm cursor-pointer bg-primary px-8 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Produk
-                  </Link>
+                  </div>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    href={
+                      "https://api.whatsapp.com/send?phone=62813231123&text=Haii%20..%20"
+                    }
+                    target="_blank"
                     className="inline-block rounded-sm bg-black px-8 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Hubungi

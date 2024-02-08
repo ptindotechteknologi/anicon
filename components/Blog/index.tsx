@@ -1,12 +1,15 @@
+'use client'
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 import blogData from "./blogData";
+import { useRouter } from "next/navigation";
 
 const Blog = () => {
+  const router = useRouter();
   return (
     <section
       id="blog"
-      className="bg-gray-light dark:bg-bg-color-dark py-16 md:py-20 lg:py-28"
+      className="bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28"
     >
       <div className="container">
         <SectionTitle
@@ -16,8 +19,12 @@ const Blog = () => {
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-4">
-          {blogData.map((blog) => (
-            <div key={blog.id} className="w-full">
+          {blogData.slice(0, 4).map((blog) => (
+            <div
+              key={blog.id}
+              className="w-full cursor-pointer"
+              onClick={() => router.push("/blog-details/" + blog.id)}
+            >
               <SingleBlog blog={blog} />
             </div>
           ))}
