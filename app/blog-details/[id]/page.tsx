@@ -1,7 +1,4 @@
-import SharePost from "@/components/Blog/SharePost";
-import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
-// import { useRouter } from "next/router";
 
 import { Metadata } from "next";
 import blogData from "@/components/Blog/blogData";
@@ -11,6 +8,11 @@ import CoverUditch from "@/components/Blog/details/CoverUditch";
 import BoxCulvert from "@/components/Blog/details/BoxCulvert";
 import Barrier from "@/components/Blog/details/Barrier";
 import Pipe from "@/components/Blog/details/Pipe";
+import CarouselUdicth from "@/components/Blog/carousel/CarouselUdicth";
+import CarouselCoverUdicth from "@/components/Blog/carousel/CarouselCoverUdicth";
+import CarouselBoxCulvert from "@/components/Blog/carousel/CarouselBoxCulvert";
+import CarouselBarrier from "@/components/Blog/carousel/CarouselBarrier";
+import CarouselPipe from "@/components/Blog/carousel/CarouselPipe";
 
 export const metadata: Metadata = {
   title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
@@ -28,14 +30,12 @@ const BlogDetailsPage = ({ params }) => {
             <div className="mt-6 sm:mt-10">
               <div>
                 <div className="gird-cols-1 grid h-max gap-6 sm:grid-cols-2 md:grid-cols-2">
-                  {/* Product Image */}
                   <div className="overflow-hidden rounded-xl">
-                    <Image
-                      src={data.image}
-                      alt="author"
-                      width={700}
-                      height={700}
-                    />
+                    {params.id == 1 && <CarouselUdicth />}
+                    {params.id == 2 && <CarouselCoverUdicth />}
+                    {params.id == 3 && <CarouselBoxCulvert />}
+                    {params.id == 4 && <CarouselBarrier />}
+                    {params.id == 5 && <CarouselPipe />}
                   </div>
                   {/* Product Details */}
                   <div className="flex flex-col justify-between">
@@ -50,7 +50,7 @@ const BlogDetailsPage = ({ params }) => {
                       </p>
                       {/* Product Price */}
                       <span className="mt-2 text-xl font-semibold sm:text-2xl">
-                        $20
+                        {/* $20 */}
                       </span>
                     </div>
                     {/* Quantity Input and Order Button */}

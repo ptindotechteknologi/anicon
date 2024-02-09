@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
