@@ -39,7 +39,7 @@ const Hero = () => {
                   </div>
                   <Link
                     href={
-                      "https://api.whatsapp.com/send?phone=62813231123&text=Haii%20..%20"
+                      "https://api.whatsapp.com/send?phone=6281210771205&text=Haii%20..%20"
                     }
                     target="_blank"
                     className="inline-block rounded-sm bg-black px-8 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"

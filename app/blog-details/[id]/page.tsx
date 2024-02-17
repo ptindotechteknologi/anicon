@@ -64,7 +64,7 @@ const BlogDetailsPage = ({ params }) => {
                       {/* Order Button */}
                       <Link
                         href={
-                          "https://api.whatsapp.com/send?phone=62813231123&text=Haii%20..%20"
+                          "https://api.whatsapp.com/send?phone=6281210771205&text=Haii%20..%20"
                         }
                         target="_blank"
                         className="my-4 w-full text-left"
