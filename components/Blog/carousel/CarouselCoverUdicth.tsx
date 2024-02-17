@@ -3,12 +3,12 @@ import Image from 'next/image'
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 
-function CarouselBarrier() {
+function CarouselCoverUdicth() {
     return (
-        <Carousel  autoPlay infiniteLoop showThumbs={false} statusFormatter={() => { }}>
+        <Carousel autoPlay infiniteLoop showThumbs={false} statusFormatter={() => ''}>
             <div>
                 <Image
-                    src={"/images/blog/barrier/1.webp"}
+                    src={"/images/blog/coveruditch/1.webp"}
                     alt="author"
                     width={700}
                     height={700}
@@ -16,7 +16,7 @@ function CarouselBarrier() {
             </div>
             <div>
                 <Image
-                    src={"/images/blog/barrier/2.webp"}
+                    src={"/images/blog/coveruditch/2.webp"}
                     alt="author"
                     width={700}
                     height={700}
@@ -26,4 +26,4 @@ function CarouselBarrier() {
     )
 }
 
-export default CarouselBarrier
+export default CarouselCoverUdicth

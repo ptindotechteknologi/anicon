@@ -13,6 +13,9 @@ import CarouselCoverUdicth from "@/components/Blog/carousel/CarouselCoverUdicth"
 import CarouselBoxCulvert from "@/components/Blog/carousel/CarouselBoxCulvert";
 import CarouselBarrier from "@/components/Blog/carousel/CarouselBarrier";
 import CarouselPipe from "@/components/Blog/carousel/CarouselPipe";
+import CarouselFrameAndCover from "@/components/Blog/carousel/CarouselFrameAndCover";
+import CarouselFlanel from "@/components/Blog/carousel/CarouselFlanel";
+import CarouselSumurResapan from "@/components/Blog/carousel/CarouselSumurResapan";
 
 export const metadata: Metadata = {
   title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
@@ -36,6 +39,9 @@ const BlogDetailsPage = ({ params }) => {
                     {params.id == 3 && <CarouselBoxCulvert />}
                     {params.id == 4 && <CarouselBarrier />}
                     {params.id == 5 && <CarouselPipe />}
+                    {params.id == 6 && <CarouselFrameAndCover />}
+                    {params.id == 7 && <CarouselFlanel />}
+                    {params.id == 8 && <CarouselSumurResapan />}
                   </div>
                   {/* Product Details */}
                   <div className="flex flex-col justify-between">

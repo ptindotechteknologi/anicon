@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Daftar Produk | CV Anicon Pracast",
-  description: "This is Blog Page for Daftar Produk | CV Anicon Pracast",
+  description: "This is Blog Page for Daftar Produk | CV Anicon Precast Beton",
   // other metadata
 };
 

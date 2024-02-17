@@ -3,12 +3,12 @@ import Image from 'next/image'
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 
-function CarouselPipe() {
+function CarouselSumurResapan() {
     return (
-        <Carousel  autoPlay infiniteLoop showThumbs={false} statusFormatter={() => { }}>
+        <Carousel autoPlay infiniteLoop showThumbs={false} statusFormatter={() => ''}>
             <div>
                 <Image
-                    src={"/images/blog/pipe/1.webp"}
+                    src={"/images/blog/sumurresapan/sumurresapan1.webp"}
                     alt="author"
                     width={700}
                     height={700}
@@ -16,7 +16,7 @@ function CarouselPipe() {
             </div>
             <div>
                 <Image
-                    src={"/images/blog/pipe/2.webp"}
+                    src={"/images/blog/sumurresapan/sumurresapan2.webp"}
                     alt="author"
                     width={700}
                     height={700}
@@ -24,7 +24,7 @@ function CarouselPipe() {
             </div>
             <div>
                 <Image
-                    src={"/images/blog/pipe/3.webp"}
+                    src={"/images/blog/sumurresapan/sumurresapan3.webp"}
                     alt="author"
                     width={700}
                     height={700}
@@ -34,4 +34,4 @@ function CarouselPipe() {
     )
 }
 
-export default CarouselPipe
+export default CarouselSumurResapan

@@ -5,20 +5,6 @@ import SharePost from "../SharePost";
 import Quote from "@/components/Quote";
 
 function Barrier() {
-  let data = [
-    "40 x 40 x 100 cm",
-    "50 x 50 x 100 cm",
-    "60 x 60 x 100 cm",
-    "80 x 80 x 100 cm",
-  ];
-
-  let data2 = [
-    "100 x 100 x 100 cm",
-    "120 x 120 x 100 cm",
-    "200 x 200 x 100 cm",
-    "*custom",
-  ];
-
   return (
     <div className="mt-8">
       <div className="-mx-4 flex flex-wrap justify-center">

@@ -3,12 +3,12 @@ import Image from 'next/image'
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 
-function CarouselBoxCulvert() {
+function CarouselUdicth() {
     return (
-        <Carousel autoPlay infiniteLoop showThumbs={false} statusFormatter={() => { }}>
+        <Carousel autoPlay infiniteLoop showThumbs={false} statusFormatter={() => ''}>
             <div>
                 <Image
-                    src={"/images/blog/boxculvert/1.webp"}
+                    src={"/images/blog/1uditch.webp"}
                     alt="author"
                     width={700}
                     height={700}
@@ -16,7 +16,15 @@ function CarouselBoxCulvert() {
             </div>
             <div>
                 <Image
-                    src={"/images/blog/boxculvert/2.webp"}
+                    src={"/images/blog/2uditch.webp"}
+                    alt="author"
+                    width={700}
+                    height={700}
+                />
+            </div>
+            <div>
+                <Image
+                    src={"/images/blog/3uditch.webp"}
                     alt="author"
                     width={700}
                     height={700}
@@ -26,4 +34,4 @@ function CarouselBoxCulvert() {
     )
 }
 
-export default CarouselBoxCulvert
+export default CarouselUdicth

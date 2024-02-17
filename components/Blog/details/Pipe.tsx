@@ -45,7 +45,7 @@ function Pipe() {
               </p>
               <ul className="mb-10 list-inside list-disc text-body-color">
                 <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                  Mutu Beton K-350
+                  Mutu Beton K-500
                 </li>
                 <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                   Sistem cetak spun roller compacted
@@ -99,7 +99,7 @@ function Pipe() {
               </p>
               <ul className="mb-10 list-inside list-disc text-body-color">
                 <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                  Mutu Beton K-350
+                  Mutu Beton K-500
                 </li>
                 <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                   Sistem cetak spun roller compacted
