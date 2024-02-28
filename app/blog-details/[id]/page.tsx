@@ -16,6 +16,8 @@ import CarouselPipe from "@/components/Blog/carousel/CarouselPipe";
 import CarouselFrameAndCover from "@/components/Blog/carousel/CarouselFrameAndCover";
 import CarouselFlanel from "@/components/Blog/carousel/CarouselFlanel";
 import CarouselSumurResapan from "@/components/Blog/carousel/CarouselSumurResapan";
+import CarouselTangkapAir from "@/components/Blog/carousel/CarouselTangkapAir";
+import BoxTangkapAir from "@/components/Blog/details/BoxTangkapAir";
 
 export const metadata: Metadata = {
   title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
@@ -42,6 +44,7 @@ const BlogDetailsPage = ({ params }) => {
                     {params.id == 6 && <CarouselFrameAndCover />}
                     {params.id == 7 && <CarouselFlanel />}
                     {params.id == 8 && <CarouselSumurResapan />}
+                    {params.id == 9 && <CarouselTangkapAir />}
                   </div>
                   {/* Product Details */}
                   <div className="flex flex-col justify-between">
@@ -87,6 +90,7 @@ const BlogDetailsPage = ({ params }) => {
           {params.id == 3 && <BoxCulvert />}
           {params.id == 4 && <Barrier />}
           {params.id == 5 && <Pipe />}
+          {params.id == 9 && <BoxTangkapAir />}
         </div>
       </section>
     </>

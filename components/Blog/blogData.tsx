@@ -68,7 +68,7 @@ const blogData: Blog[] = [
   },
   {
     id: 7,
-    title: "Flanel",
+    title: "Panel",
     paragraph:
       "Pagar panel adalah salah satu produk beton pracetak yang terbuat dari materia pasir ... ",
     longParagraph:
@@ -90,10 +90,10 @@ const blogData: Blog[] = [
   },
   {
     id: 9,
-    title: "Comming Soon",
-    paragraph: "Comming Soon",
-    longParagraph: "Comming Soon",
-    image: "",
+    title: "Box Tangkap Air",
+    paragraph: "Box tangkapan air adalah salah satu jenis beton pracetak yang banyak ...",
+    longParagraph: "Box tangkapan air adalah salah satu jenis beton pracetak yang banyak dipergunakan pada pekerjaan saluran drainase perkotaan. Yang berfungsi menangkap air dari jalan raya untuk dialirkan melalui pelaluan air menuju ke saluran drainase. Box tangkapan air ini ditutup dengan grill terbuat dari besi.",
+    image: "/images/blog/boxtangkapair/tangkapair.webp",
     tags: [],
     publishDate: "2025",
   },

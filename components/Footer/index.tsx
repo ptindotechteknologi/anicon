@@ -33,7 +33,6 @@ const Footer = () => {
                   Jl. PPLI Kp Walahir, Desa Nambo, Kec. Kelapa Nunggal Kab.
                   Bogor—Jawa Barat
                 </p>
-
               </div>
             </div>
 
@@ -89,13 +88,17 @@ const Footer = () => {
                     <a
                       href="https://www.facebook.com/anicon.precast/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >Facebook</a>
+                    >
+                      Facebook
+                    </a>
                   </li>
                   <li>
                     <a
                       href="https://www.tiktok.com/@anicon.precast?_t=8js68WT4td4&_r=1"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >Tik Tok</a>
+                    >
+                      Tik Tok
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -138,12 +141,7 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
-            <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                Next.js Templates
-              </a>
-            </p>
+            <p className="text-center text-base text-body-color dark:text-white"> </p>
           </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
