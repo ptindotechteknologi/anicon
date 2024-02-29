@@ -18,6 +18,10 @@ import CarouselFlanel from "@/components/Blog/carousel/CarouselFlanel";
 import CarouselSumurResapan from "@/components/Blog/carousel/CarouselSumurResapan";
 import CarouselTangkapAir from "@/components/Blog/carousel/CarouselTangkapAir";
 import BoxTangkapAir from "@/components/Blog/details/BoxTangkapAir";
+import CarouselPlanterBox from "@/components/Blog/carousel/CarouselPlanterBox";
+import PlanterBox from "@/components/Blog/details/PlanterBox";
+import CarouselKansitin from "@/components/Blog/carousel/CarouselKansitin";
+import KansitinBeton from "@/components/Blog/details/KansitinBeton";
 
 export const metadata: Metadata = {
   title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
@@ -45,6 +49,8 @@ const BlogDetailsPage = ({ params }) => {
                     {params.id == 7 && <CarouselFlanel />}
                     {params.id == 8 && <CarouselSumurResapan />}
                     {params.id == 9 && <CarouselTangkapAir />}
+                    {params.id == 10 && <CarouselPlanterBox />}
+                    {params.id == 11 && <CarouselKansitin />}
                   </div>
                   {/* Product Details */}
                   <div className="flex flex-col justify-between">
@@ -91,6 +97,8 @@ const BlogDetailsPage = ({ params }) => {
           {params.id == 4 && <Barrier />}
           {params.id == 5 && <Pipe />}
           {params.id == 9 && <BoxTangkapAir />}
+          {params.id == 10 && <PlanterBox />}
+          {params.id == 11 && <KansitinBeton />}
         </div>
       </section>
     </>
