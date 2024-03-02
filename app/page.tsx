@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import FloatingButton from "@/components/FloatingButton";
 import { Metadata } from "next";
+import AboutSectionFive from "@/components/About/AboutSectionFive";
 export const metadata: Metadata = {
   title: "CV Anicon",
   description: "This is Home for Startup Nextjs Template",
@@ -27,6 +28,7 @@ export default function Home() {
       <Brands />
       <Video />
       <AboutSectionTwo />
+      <AboutSectionFive />
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
       <Blog />
