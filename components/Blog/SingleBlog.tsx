@@ -1,6 +1,7 @@
 "use client";
 import { Blog } from "@/types/blog";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 const SingleBlog = ({ blog }: { blog: Blog }) => {
   const { title, image, paragraph, tags, publishDate } = blog;
@@ -30,33 +31,19 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           <p className=" whitespace-no-wrap h-20 overflow-hidden border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10 ">
             {paragraph}
           </p>
-          <button
+          <Link
+            href={"/blog-details/" + blog.id}
+            className="flex mt-2 w-full items-center justify-center rounded-sm bg-primary px-9 py-1 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+          >
+             More Details
+          </Link>
+          {/* <button
+            
             onClick={() => router.push("/blog-details/" + blog.id)}
             className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-1 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
           >
             More Details
-          </button>
-          {/* <div className="flex items-center">
-            <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
-              <div className="mr-4">
-                <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                  <Image src={author.image} alt="author" fill />
-                </div>
-              </div>
-              <div className="w-full">
-                <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                  By {author.name}
-                </h4>
-                <p className="text-xs text-body-color">{author.designation}</p>
-              </div>
-            </div>
-            <div className="inline-block">
-              <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                Date
-              </h4>
-              <p className="text-xs text-body-color">{publishDate}</p>
-            </div>
-          </div> */}
+          </button> */}
         </div>
       </div>
     </>

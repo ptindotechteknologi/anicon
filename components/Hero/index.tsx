@@ -31,12 +31,18 @@ const Hero = () => {
                   SELAMAT DATANG di Pusat Spesialis Beton Precast
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <div
+                  {/* <div
                     onClick={() => router.push("/product")}
-                    className="rounded-sm cursor-pointer bg-primary px-8 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    className="cursor-pointer rounded-sm bg-primary px-8 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Produk
-                  </div>
+                  </div> */}
+                  <Link
+                    href={"/product"}
+                    className="cursor-pointer rounded-sm bg-primary px-8 py-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    Produk
+                  </Link>
                   <Link
                     href={
                       "https://api.whatsapp.com/send?phone=6281210771205&text=Halo Saya Ingin memesan Produt dari Anicon"

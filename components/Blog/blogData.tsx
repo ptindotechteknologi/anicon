@@ -108,7 +108,7 @@ const blogData: Blog[] = [
   },
   {
     id: 11,
-    title: "Kansitin Box",
+    title: "Kanstin Box",
     paragraph: "Kanstin adalah  suatu tepi  trotoar yang ditinggikan atau median ...",
     longParagraph: "Kanstin adalah  suatu tepi  trotoar yang ditinggikan atau median jalan/reservasi tengah bertemu dengan jalan. Atau bisa disebut Kerb struktur yang terbuat dari beton yang diletakkan pada sisi perkerasan jalan untuk menuntun kendaraan dan dapat berupa median jalan pemisah",
     image: "/images/blog/kansitin/kanstin1(2).webp",

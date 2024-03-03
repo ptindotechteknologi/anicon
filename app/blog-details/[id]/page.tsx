@@ -22,6 +22,7 @@ import CarouselPlanterBox from "@/components/Blog/carousel/CarouselPlanterBox";
 import PlanterBox from "@/components/Blog/details/PlanterBox";
 import CarouselKansitin from "@/components/Blog/carousel/CarouselKansitin";
 import KansitinBeton from "@/components/Blog/details/KansitinBeton";
+import Panel from "@/components/Blog/details/Panel";
 
 export const metadata: Metadata = {
   title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
@@ -96,6 +97,7 @@ const BlogDetailsPage = ({ params }) => {
           {params.id == 3 && <BoxCulvert />}
           {params.id == 4 && <Barrier />}
           {params.id == 5 && <Pipe />}
+          {params.id == 7 && <Panel />}
           {params.id == 9 && <BoxTangkapAir />}
           {params.id == 10 && <PlanterBox />}
           {params.id == 11 && <KansitinBeton />}

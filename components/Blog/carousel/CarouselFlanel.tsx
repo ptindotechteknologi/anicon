@@ -19,7 +19,7 @@ function CarouselFlanel() {
       />
 
       <Image
-        src={"/images/blog/flanel/flanel1.webp"}
+        src={"/images/blog/flanel/flanel2.webp"}
         alt="author"
         width={700}
         height={700}
