@@ -12,15 +12,17 @@ import Video from "@/components/Video";
 import FloatingButton from "@/components/FloatingButton";
 import { Metadata } from "next";
 import AboutSectionFive from "@/components/About/AboutSectionFive";
+import GoogleTagManager from "@/components/GoogleTagManager";
 export const metadata: Metadata = {
   title: "CV Anicon",
-  description: "This is Home for Startup Nextjs Template",
+  description: "This is Home for Anicon",
   // other metadata
 };
 
 export default function Home() {
   return (
     <>
+      <GoogleTagManager />
       <ScrollUp />
       <Hero />
       <AboutSectionOne />
